@@ -57,3 +57,41 @@
    3.3. ***Spatially Varied***
 
    - Those portions of the main channel flow wherein lateral inflow or outflow occurs.
+
+4. **Flow Classification**
+
+   > Flow in open channel is classified by comparing the average velocity (V) with the speed of a small amplitude gravity wave (c).
+
+   $$
+   c = \sqrt{\frac{g . A}{T}} = \sqrt{g . Y_d}
+   $$
+
+   ​	where:
+
+   ​		g - acceleration due to gravity
+
+   ​		A - cross section of the flow
+
+   ​		T - top with of the flow
+
+   ​		$Y_d$ - hydraulic depth $(\frac{A}{T})$
+$$
+   F (Froude-number) = \frac{V}{c} = \frac{V}{\sqrt{gA/T}}
+$$
+   
+
+   
+   
+   4.1. ***SubCritical***
+   
+   - The effect of downstream changes are noted by the fluid and adjusts in anticipation of downstream occurrences.
+   - $F < 1$
+   
+   4.2. ***Critical***
+   
+   - $F = 1$
+   
+   4.3. ***Supercritical***
+   
+   - The effect of change cannot travel upstream because the velocity exceeds `c`.
+   - $F > 1$
