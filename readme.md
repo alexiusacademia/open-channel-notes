@@ -78,24 +78,24 @@
 $$
    F (Froude-number) = \frac{V}{c} = \frac{V}{\sqrt{gA/T}}
 $$
-   
 
-   
-   
+
+
+
    4.1. ***SubCritical***
-   
+
    - The effect of downstream changes are noted by the fluid and adjusts in anticipation of downstream occurrences.
    - $F < 1$
-   
+
    4.2. ***Critical***
-   
+
    - $F = 1$
-   
+
    4.3. ***Supercritical***
-   
+
    - The effect of change cannot travel upstream because the velocity exceeds `c`.
    - $F > 1$
-   
+
 6. **Reynolds Number ($R_e$)**
 
    - Ratio of inertia to viscous forces and is used to distinguish whether a flow is laminar or turbulent.
@@ -121,10 +121,33 @@ $$
 7. **Basic Fluid Mechanics**
 
    - The application of fluid mechanics involves thorough understanding of the following:
-
      - Physical properties of fluids
      - Conservation of mass (continuity principle)
      - Conservation of energy
      - Utilization of momentum fluxes as vector quantities
 
+8. **Physical Properties of Fluids**
+
+   - Density $\rho = \frac{mass}{volume}$
+
+   - Specific weight $\gamma = \rho g$, where $g$ is the acceleration due to gravity.
+
+     - related to density through Newton's second law of motion,
+
+       $Force = Mass \times Acceleration$
+
+     - Weight is a force due to resisting gravity
+
+     - More precision for gravity, $g = 9.80685 \space m/s^2$
+
+   - The weight of a fluid causes pressure to increase with depth
+     $$
+     \frac{dp}{dz} = -\gamma = -\rho g
+     $$
+     assuming there is no motion in the fluid.
+
+   - If the fluid is incompressible, equation (5) integrates to:
+     $$
+     p_2 - p_1 = \gamma (z_2 - z_1) = \rho g (z_2 - z_1)
+     $$
      
