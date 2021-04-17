@@ -117,3 +117,14 @@ $$
      ​	$v$ - kinematic viscosity
 
    - If $R_e < 500$, the flow is laminar, otherwise, the flow is turbulent.
+
+7. **Basic Fluid Mechanics**
+
+   - The application of fluid mechanics involves thorough understanding of the following:
+
+     - Physical properties of fluids
+     - Conservation of mass (continuity principle)
+     - Conservation of energy
+     - Utilization of momentum fluxes as vector quantities
+
+     
