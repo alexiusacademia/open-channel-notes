@@ -95,3 +95,25 @@ $$
    
    - The effect of change cannot travel upstream because the velocity exceeds `c`.
    - $F > 1$
+   
+6. **Reynolds Number ($R_e$)**
+
+   - Ratio of inertia to viscous forces and is used to distinguish whether a flow is laminar or turbulent.
+
+     
+     $$
+     R_e = \frac{VR_h}{v} = \frac{Q}{vP} = \frac{\rho V R_h}{\mu}
+     $$
+     where:
+
+     ​	$R_h$ - hydraulic raidus
+
+     ​	$V$ - average velocity of the flow
+
+     ​	$Q$ - volumetric flow rate (discharge)
+
+     ​	$\mu$ - absolute viscosity
+
+     ​	$v$ - kinematic viscosity
+
+   - If $R_e < 500$, the flow is laminar, otherwise, the flow is turbulent.
