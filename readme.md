@@ -151,3 +151,38 @@ $$
      p_2 - p_1 = \gamma (z_2 - z_1) = \rho g (z_2 - z_1)
      $$
      
+
+9. **Conservation of Mass / Continuity Equation**
+
+   Simplified, quantity of fluid passing through point 1 equals quantity of fluid passing through point 2;
+   $$
+   A_1 V_1 = A_2 V_2
+   $$
+   or if there is an inflow in between,
+   $$
+   (\rho VA)_2 = (\rho VA)_1 + (\rho VA)_1-_2
+   $$
+
+   $$
+   (VA)_2 = (VA)_1 + \int q(x) dx
+   $$
+
+   where:
+
+   ​	$q(x)$ - is the lateral inflow (negative for lateral outflow)
+
+   
+
+   When dealing with two or three dimensional flow, the continuity equation becomes partial differential equation:
+   $$
+   \frac{\part (\rho u)}{\part x} + \frac{\part (\rho v)}{\part y} + \frac{\part (\rho w)}{\part z} = -\frac{\part (\rho)}{\part t}
+   $$
+   where:
+
+   ​	$u$, $v$ and $w$ are the velocity components in the x, y and z directions.
+
+    For an incompressible fluids, equation (10) reduces to:
+   $$
+   \frac{\part u}{\part x} + \frac{\part v}{\part y} + \frac{\part w}{\part z} = 0
+   $$
+   
